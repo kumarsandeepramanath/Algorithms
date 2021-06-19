@@ -1,0 +1,78 @@
+1.
+/*
+ * Complete the 'simpleArraySum' function below.
+ *
+ * The function is expected to return an INTEGER.
+ * The function accepts INTEGER_ARRAY ar as parameter.
+ */
+
+function simpleArraySum(ar) {
+    let sum = 0
+    for(let i=0;i<ar.length;i++)
+    {
+        sum+=ar[i] 
+    }
+    return sum;
+}
+------------------------------------------------------------------------------------
+2. 
+
+/*Return sum of 2 values */
+
+function solveMeFirst(a, b) {
+  return a+b;
+}
+------------------------------------------------------------------------------------
+3.
+/*
+ * Complete the 'compareTriplets' function below.
+ *
+ * The function is expected to return an INTEGER_ARRAY.
+ * The function accepts following parameters:
+ *  1. INTEGER_ARRAY a
+ *  2. INTEGER_ARRAY b
+ */
+
+function compareTriplets(a, b) {
+    // Write your code here
+    let score = []
+    let aScore = 0
+    let bScore = 0
+    for(let i=0;i<a.length;i++)
+    {
+        if(a[i]>b[i])
+        {
+           aScore++ 
+        }
+        else if(a[i]<b[i])
+        {
+            bScore++
+        }
+        else
+        {
+            continue
+        }
+    }
+    score.push(aScore)
+    score.push(bScore)
+    return score
+}
+------------------------------------------------------------------------------------
+4.
+/*
+ * Complete the 'aVeryBigSum' function below.
+ *
+ * The function is expected to return a LONG_INTEGER.
+ * The function accepts LONG_INTEGER_ARRAY ar as parameter.
+ */
+
+function aVeryBigSum(ar) {
+    let bigSum = 0
+    for(let i=0;i<ar.length;i++)
+    {
+        bigSum+=ar[i]
+    }
+    return bigSum
+}
+------------------------------------------------------------------------------------
+5.
