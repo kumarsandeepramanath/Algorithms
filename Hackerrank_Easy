@@ -119,9 +119,7 @@ function plusMinus(arr) {
     console.log(zeroNum/arr.length.toFixed(6))
 }
 ------------------------------------------------------------------------------
-6.
-
-Given a square matrix, calculate the absolute difference between the sums of its diagonals.
+6. Given a square matrix, calculate the absolute difference between the sums of its diagonals.
 
 For example, the square matrix arr is shown below:
 1 2 3
