@@ -12,6 +12,13 @@ function simpleArraySum(ar) {
     {
         sum+=ar[i] 
     }
+    
+    // OR
+    /*for(let i in ar)
+    {
+        sum+= ar[i]
+    }*/
+    
     return sum;
 }
 ------------------------------------------------------------------------------------
