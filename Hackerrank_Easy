@@ -62,7 +62,9 @@ function compareTriplets(a, b) {
     }
     score.push(aScore)
     score.push(bScore)
-    return score
+    return score 
+    // OR
+    // return [aScore, bScore]
 }
 ------------------------------------------------------------------------------------
 4.
